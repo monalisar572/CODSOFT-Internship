@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Company Landing Page</title>
+</head>
+<body>
+    <style> /* Reset default styles */
+        body, h1, h2, p, ul {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Header */
+        header {
+            background-color: #111;
+            color: #fff;
+            padding: 20px 0;
+        }
+        
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        
+        header ul {
+            list-style: none;
+            display: flex;
+        }
+        
+        header li {
+            margin-right: 20px;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        /* Hero section */
+        #hero {
+            background-image: url('c:/Users/Admin/Desktop/background image.jpg');
+            background-size: cover;
+            text-align: center;
+            color: #fff;
+            padding: 100px 0;
+        }
+        
+        #hero h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+        
+        .cta-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        /* Other sections */
+        section {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        /* Footer */
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        /* Responsive design */
+        @media (max-width: 768px) {
+            header nav {
+                flex-direction: column;
+                text-align: center;
+            }
+        
+            header li {
+                margin: 10px 0;
+            }
+        }
+        </style>
+    <header>
+        <nav>
+            <div class="logo">Google</div>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to Our Company</h1>
+        <p>Your solution for all your needs.</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p><br>Google is a global technology company that specializes in internet-related services and products<br>
+            <br>Founded in September 1998 by Larry Page and Sergey Brin while they were Ph.D. students at Stanford University,<br>
+            <br>Google has since become one of the world's most recognized and influential technology companies.<br>
+            <br> The company's mission is to "organize the world's information and make it universally accessible and useful."<br>
+            <br><b><u>Key Information:</u></b><br>
+            <br> Founders: Larry Page and Sergey Brin<br>
+            <br>Incorporation Date: September 4, 1998<br>
+            <br>Headquarters: Mountain View, California, USA<br>
+            <br><b>CEO: Sundar Pichai</b><br>
+            <br>Parent Company: Alphabet Inc. (Google's parent company)<br>
+            <br>Employees: Google employs thousands of people globally, working in various locations around the world.<br>
+            <br><b>"Google's mission is to organize the world's information and 
+            make it universally accessible and useful." Google's "About" 
+            section showcases its commitment to innovation, user-centric products
+            and services, and its influence on the digital landscape. The company's 
+            core principles revolve around making information accessible and improving
+            the lives of people worldwide through technology.</b><br>
+        </p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+           <br><li><b><u>Google Workspace</u></b> is a collection of
+                cloud computing, productivity and 
+                collaboration tools, software and products
+                developed and marketed by Google.</li><br>
+
+            <br><li><b><u>Drive</u></b> image of Drive en.m.wikipedia.org 
+                Google Drive is a file storage and 
+                synchronization service developed by Google.
+                Launched on April 24, 2012, Google Drive allows
+                users to store files in the cloud, synchronize 
+                files across devices, and share files.</li><br>
+
+            <br><li><b><u>Google Maps</u></b> is a web mapping platform and 
+                consumer application offered by Google. It
+                offers satellite imagery, aerial photography,
+                street maps, 360° interactive panoramic views of
+                streets, real-time traffic conditions, and route
+                planning for traveling by foot, car, bike, air and
+                 public transportation</li><br>
+
+            <br><li><b><u>Search Engine:</u></b> Google Search is the company's 
+                flagship product,providing users with the ability 
+                to search for information on the internet.</li>
+
+            <br><li><b><u>YouTube:</u></b> A video-sharing platform, 
+                now a subsidiary of Google.</li><br>
+
+            <br><li><b><u>Google Ads:</u></b> An advertising platform that helps
+                 businesses reach a global audience through digital marketing.</li><br>
+
+            <br><li><b><u>Android:</u></b> An operating system used in a
+                 majority of smartphones worldwide.</li><br>
+
+            <br><li><b><u>Google Cloud</u>:</b> A suite of cloud computing services, including 
+                infrastructure, data analytics, and machine learning tools.</li><br>
+
+            <br><li><b><u>Gmail:</u></b> A popular email service with millions of users worldwide.</li><br> 
+
+            <br><li><b><u>Chrome:</u></b> The Google Chrome web browser, known 
+                for its speed, simplicity, and security.</li><br>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><u>monalisar572@gmail.com</u></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 google Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
